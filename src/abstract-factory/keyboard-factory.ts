@@ -1,11 +1,10 @@
+import { FactoryType } from './factory-type';
 import { Keyboard } from './keyboard';
 import { LGKeyboard } from './lg-keyboard';
 import { SamsungKeyboard } from './samsung-keyboard';
 
-export type keyboardFactoryType = 'LG' | 'SAMSUNG';
-
 export class KeyboardFactory {
-  public static createKeyboard(type: keyboardFactoryType): Keyboard {
+  public static createKeyboard(type: FactoryType): Keyboard {
     let keyboard: Keyboard;
     switch (type) {
       case 'LG':
