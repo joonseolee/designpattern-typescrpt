@@ -68,6 +68,10 @@ n개의 자식클래스를 만들어도 그 구현부에는 큰 영향이 가지
 [스택오버플로우](https://stackoverflow.com/questions/48355238/difference-between-bridge-and-decorator-pattern)에서는 모든 클래스들이 공통된 수퍼클래스를 가지는게 `decorator` 라고 하고,  
 `bridge`는 하나의 추상 수퍼클래스와 다른 구현체들로 나뉘고 그 수퍼클래스는 다른 구현체들을 `hasA` 관계로 설명하고있다.
 
+
+## facade
+
+
 ---
 
 ## 참조
