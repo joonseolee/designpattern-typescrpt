@@ -1,0 +1,37 @@
+@startuml Decorator Pattern
+
+scale 2
+interface Equipment {
+    +operation(): number
+}
+
+class HeadEquipment {
+    {static} serializedNumber11111: number
+    -_missionClearBonus = 1
+    +operation(): number
+    {abstract} showInfo: void
+}
+
+class EquipmentDecorator {
+    #component: Equipment
+    +EquipmentDecorator(component: Equipment)
+    +operation(): number
+}
+
+class NormalWizardDecorator {
+    +NormalWizardDecorator(component: Equipment)
+    +operation(): number
+}
+
+class UniqueWizardDecorator {
+    +UniqueWizardDecorator(component: Equipment)
+    +operation(): number
+}
+
+Equipment <|.. HeadEquipment
+Equipment <|.. EquipmentDecorator
+Equipment <-- EquipmentDecorator
+EquipmentDecorator <|-- NormalWizardDecorator
+EquipmentDecorator <|-- UniqueWizardDecorator
+
+@enduml
