@@ -1,6 +1,3 @@
-import { AdidasCreator } from 'src/factory-method/adidas-creator';
-import { Factory } from 'src/factory-method/factory';
-import { NikeCreator } from 'src/factory-method/nike-creator';
 import { Club } from 'src/flyweight/club';
 import { ClubFactory } from 'src/flyweight/club-factory';
 import { ClubMember } from 'src/flyweight/club-member';
