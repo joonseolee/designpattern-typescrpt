@@ -107,3 +107,4 @@ invoker 자체는 변화하는게 없고 command 쪽만 변화하는 특징을 �
 
 1. [위키백과 - 디자인패턴](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%94%94%EC%9E%90%EC%9D%B8_%ED%8C%A8%ED%84%B4)
 2. [인프런 - 디자인 패턴](https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)
+3. [refactoring-guru](https://refactoring.guru/)
