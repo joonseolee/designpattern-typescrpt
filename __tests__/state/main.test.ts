@@ -19,7 +19,7 @@ describe('state pattern tests', () => {
     const lgCompany: Company = new Company(preEmployees, employees);
 
     expect(lgCompany.getCurrentEmployeeCount()).toBe(4);
-    lgCompany.employeeState = new EmployeeStateHire();
+    lgCompany.employeeState = new EmployeeStateHire(lgCompany);
     expect(lgCompany.getCurrentEmployeeCount()).toBe(8);
   });
 });
